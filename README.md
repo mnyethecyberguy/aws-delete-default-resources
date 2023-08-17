@@ -4,13 +4,14 @@ This bash shell script is configured to delete the default VPCs and associated r
 
 ## Resources Removed
 
-The following resource objects are removed in all enabled regions:
+The following resource objects attached to the default VPC, in addition to the VPC itself, are removed in all enabled regions:
 - DHCP Options
-- Internet Gateway (attached to default VPC)
-- Subnets (attached to default VPC)
-- Security Groups (default)
-- Network ACLs (default)
-- Route Table (default)
+- Internet Gateway
+- Subnets
+- Security Groups
+- Network ACLs
+- Route Table
+- Default VPC
 
 ## Dependencies
 
