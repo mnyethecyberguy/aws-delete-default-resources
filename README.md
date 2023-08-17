@@ -1,0 +1,1 @@
+# aws-delete-default-resources
